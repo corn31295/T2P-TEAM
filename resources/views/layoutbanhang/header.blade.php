@@ -56,11 +56,14 @@
 						
 						
 					
-						<img src="images/nav_img.jpg" alt=""/>
+						
 					</div>
 				</div>
 			</li>
 			@endforeach
+
+			<li><a class="color1" href="{!! url('/') !!}">Giỏ Hàng</a></li>
+			<li><a class="color1" href="{!! url('/') !!}">Liên Hệ</a></li>
 		   </ul>
 		   <div class="clear"></div>
      	</div>
