@@ -121,6 +121,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   @include('layoutbanhang.header')
        <div class="single">
          <div class="wrap">
+		 <!-- 
      	    <div class="rsidebar span_1_of_left">
 				   <section  class="sky-form">
                    	  <h4>Occasion</h4>
@@ -219,7 +220,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</div>
 		        </section>
-		</div>
+		</div> -->
 		<div class="cont span_2_of_3">
 			  <div class="labout span_1_of_a1">
 				<!-- start product_slider -->

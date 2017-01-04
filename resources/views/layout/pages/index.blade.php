@@ -13,7 +13,7 @@
             <div class="pricetag">
               <span class="spiral"></span><a href="{!! url('mua-hang',[$item->id, $item->alias]) !!}" class="productcart">Thêm vào giỏ hàng</a>
               <div class="price">
-                <div class="pricenew">{!! number_format($item->price,0,",",".") !!}</div>
+                <div class="pricenew">{!! number_format($item->price,0,",",".") !!} </div>
                 <div class="priceold"></div>
               </div>
             </div>

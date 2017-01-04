@@ -31,16 +31,18 @@
 	    	@endforeach
 		  <div class="clear"></div>
 	  </div> 
+
 	  <div class="box1">
+	 
 	  		@foreach($sanpham2 as $item)
 			<div class="col_1_of_3 span_1_of_3"><a href="{!! url('chi-tiet-san-pham', [$item->id, $item->alias]) !!}">
 			     <div class="view view-fifth">
 			  	  <div class="top_box">
-				  	<h3 class="m_1">{!! $item->name !!}</h3>
+				  	<h5 class="m_1">{!! $item->name !!}</h5>
 			         <div class="grid_img">
 					   <div class="css3"><img src="{!! asset('resources/upload/'.$item->image) !!}" alt=""/></div>
 				          <div class="mask">
-	                   		<div class="info">Xem thêm</div>
+	                   		<div class="info">Chi Tiết</div>
 		                  </div>
 	                </div>
 	               <div class="price">{!! number_format($item->price,0,",",".") !!}</div>

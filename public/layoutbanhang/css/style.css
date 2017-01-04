@@ -51,7 +51,7 @@ body{
 	-ms-transition:all .2s linear;
 }
 .header-top{
-	background:#fff;
+	background:#000;
 	padding: 10px 0;
 }
 .logo{
@@ -59,6 +59,7 @@ body{
 	margin-right: 46.5%;
 }
 .cssmenu {
+	color: #ffffff;
 	float:left;
 	margin-top:11px;
 }
@@ -66,7 +67,7 @@ body{
 	display: inline-block;
 }
 .cssmenu ul li a {
-	color: #000;
+	color: #fff;
 	display: block;
 	margin: 0px 10px;
 	text-transform: uppercase;
@@ -361,8 +362,9 @@ p.num{
 	text-align:center;
 }
 h3.m_1{
-	color:#555;
-	font-size:0.9em;
+	text-align: center;
+	color:#000;
+	font-size:17px;
 	text-transform:uppercase;
 	font-weight:500;
 }
@@ -371,7 +373,7 @@ p.m_2{
 	font-size:0.8125em;
 }
 .price{
-	color:#555;
+	color:#ff3300;
 	font-size:1.2em;
 	font-weight:700;
 }
@@ -1534,13 +1536,13 @@ p.m_desc{
    display: inline-block;
    text-decoration: none;
    padding: 7px 14px;
-   background: #000;
+   background: #145214;
    color: #fff;
    text-transform: uppercase;
   	font-size:0.9em;
 }
 .info:hover {
-   background:#FFAF02;
+   background:#5cd65c;
 }
 .view-fifth1 img {
    -webkit-transition: all 0.3s ease-in-out;
